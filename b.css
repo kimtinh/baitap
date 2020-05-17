@@ -1,0 +1,124 @@
+@media all and (max-width: 1200px) {
+  .content-5-form {
+    width: 370px;
+  }
+}
+@media all and (max-width: 1068px) {
+  /*content-2*/
+  .content-2-left h1 {
+    font-size: 2.155rem;
+  }
+  .content-2-left p.text-gray {
+    font-size: 1.1rem;
+  }
+  /*content-3*/
+  .content-5-text h4 {
+    font-size: 1.095rem;
+  }
+  /*content-5*/
+  .content-5-text h2 {
+    font-size: 1.727rem;
+  }
+}
+@media all and (max-width: 978px) {
+  /* content-5 */
+  .content-5-list {
+    display: inline-block;
+  }
+  .content-5-list .list-row {
+    width: 100%;
+  }
+  .content-5-text p {
+    font-size: 1.057rem;
+  }
+  .content-5-text h2 {
+    font-size: 1.627rem;
+  }
+  .content-5-form {
+    width: 350px;
+  }
+}
+
+@media all and (max-width: 960px) {
+  /*menu*/
+  .menu-ul,
+  .menu-button {
+    display: none;
+  }
+  .menu .hide {
+    display: block;
+    margin-top: 30px;
+    font-size: 26px;
+    color: grey;
+  }
+  /*content-5*/
+}
+@media all and (max-width:876px) {
+  /* content-5 */
+  .content-5-form {
+    width: 100%;
+  }
+  .content-5-top {
+    padding: 0;
+  }
+  .content-5-text {
+    width: 100%;
+  }
+
+}
+@media all and (max-width: 860px) {
+  /*content-2*/
+  .content-2 {
+    text-align: center;
+  }
+  .content-2-left {
+    width: 100%;
+    padding-bottom: 30px;
+  }
+  .content-2-right {
+    width: 100%;
+  }
+  .content-2-right img {
+    width: 100%;
+  }
+.content-2-left .button-blue i {
+  display: none;
+}
+  /*content-3*/
+  .content-3 {
+    display: inline-block;
+    padding: 0;
+  }
+  .content-3-clot {
+    width: 100%;
+    padding: 10px 0;
+  }
+  /*content-4*/
+  .content-4 {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .content-4 .item {
+    width: 33.33%;
+  }
+}
+@media all and (max-width:510px) {
+  /*content-4*/
+  .content-4 {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .content-4 .item {
+    width: 50%;
+  }
+}
+@media all and (max-width:340px) {
+  /*content-4*/
+  .content-4 {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .content-4 .item {
+    width: 100%;
+  }
+}
