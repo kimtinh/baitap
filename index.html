@@ -465,14 +465,23 @@
             <div class="img-form">
               <img src="./images/photo-2.jpg" alt="" />
             </div>
-            <div class="form">
-              <input type="text" placeholder="Name" />
-              <input type="text" placeholder="Email" />
-              <input type="text" placeholder="Passwork" />
-              <button class="button-global form-button">
+            <form action="" onsubmit="getInfo(event)">
+              <div class="form" >
+              <input id="name" class="myinput" type="text" placeholder="Name" />
+              <span class="error" id="errorname"></span>
+              <input id="email" class="myinput" type="text" placeholder="Email" />
+              <span class="error" id="erroremail"></span>
+              <input id="password" class="myinput" type="text" placeholder="Passwork" />
+              <span class="error" id="errorpass"></span>
+              <button
+                id="enter"
+                class="button-global form-button"
+                type="submit"
+              >
                 Download a sample
               </button>
             </div>
+            </form>
           </div>
         </div>
         <div class="content-5-bottom ">
@@ -584,5 +593,6 @@
         </div>
       </div>
     </div>
+    <script src="1.js"></script>
   </body>
 </html>
